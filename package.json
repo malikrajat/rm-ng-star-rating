@@ -1,0 +1,64 @@
+{
+  "name": "rm-ng-star-rating",
+  "version": "1.0.0",
+  "description": "A highly optimized and fully customizable pure angular component for value range selection.",
+  "keywords": [
+    "library",
+    "angularlibrary",
+    "ng",
+    "Angular",
+    "native",
+    "angular-native",
+    "angular-component",
+    "custom",
+    "security",
+    "performance",
+    "rating",
+    "angular",
+    "bar",
+    "bar-rating",
+    "star",
+    "stars"
+  ],
+  "author": {
+    "name": "Rajat Malik",
+    "email": "mr.rajatmalik@gmail.com",
+    "url": "https://www.linkedin.com/in/errajatmalik/"
+  },
+  "homepage": "https://github.com/malikrajat/rm-ng-star-rating#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikrajat/rm-ng-star-rating.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malikrajat/rm-ng-star-rating/issues"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^18.2.0",
+    "@angular/core": "^18.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "license": "MIT",
+  "module": "fesm2022/rm-ng-star-rating.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/rm-ng-star-rating.mjs",
+      "esm": "./esm2022/rm-ng-star-rating.mjs",
+      "default": "./fesm2022/rm-ng-star-rating.mjs"
+    }
+  }
+}

@@ -25,10 +25,9 @@ npm i rm-ng-star-rating
 yarn: yarn add rm-ng-star-rating
 ```
 
-
 ## Live DEMO
 
-[See the implementation here](https://stackblitz.com/edit/stackblitz-starters-terqbx)
+[See the implementation here](https://stackblitz.com/edit/stackblitz-starters-vzwa4w)
 
 
 <a name="usage"/>
@@ -38,7 +37,7 @@ yarn: yarn add rm-ng-star-rating
 Import  `RmNgStarRatingComponent` in your component imports.
 
 ```ts
-import { RmNgStarRatingComponent } from 'rm-ng-star-rating'
+import { RmNgStarRatingComponent } from 'rm-ng-star-rating';
 
 @Component({
   standalone: true,

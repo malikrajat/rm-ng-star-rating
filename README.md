@@ -26,6 +26,11 @@ yarn: yarn add rm-ng-star-rating
 ```
 
 
+## Live DEMO
+
+[See the implementation here](https://stackblitz.com/edit/stackblitz-starters-terqbx)
+
+
 <a name="usage"/>
 
 ## Basic usage:

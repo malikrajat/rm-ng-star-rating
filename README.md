@@ -38,6 +38,8 @@ yarn: yarn add rm-ng-star-rating
 Import  `RmNgStarRatingComponent` in your component imports.
 
 ```ts
+import { RmNgStarRatingComponent } from 'rm-ng-star-rating'
+
 @Component({
   standalone: true,
   selector: 'app',

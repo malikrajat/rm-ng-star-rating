@@ -1,6 +1,6 @@
 {
   "name": "rm-ng-star-rating",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "A highly optimized and fully customizable pure angular component for value range selection.",
   "keywords": [
     "library",
@@ -34,8 +34,8 @@
     "url": "https://github.com/malikrajat/rm-ng-star-rating/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^18.2.0",
-    "@angular/core": "^18.2.0"
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -51,8 +51,6 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2022": "./esm2022/rm-ng-star-rating.mjs",
-      "esm": "./esm2022/rm-ng-star-rating.mjs",
       "default": "./fesm2022/rm-ng-star-rating.mjs"
     }
   }

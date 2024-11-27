@@ -67,9 +67,10 @@ export class AppComponent {
 
 ### Version Mapping
 
-| Version | Ng   |
-|---------|------|
-| 1.x.x   | 18.x |
+| Version | Ng     |
+|---------|--------|
+| 1.x.x   | 18.x.x |
+| 2.x.x   | 19.x.x |
 
 <a name="options"/>
 

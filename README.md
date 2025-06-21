@@ -71,6 +71,7 @@ export class AppComponent {
 |---------|--------|
 | 1.x.x   | 18.x.x |
 | 2.x.x   | 19.x.x |
+| 3.x.x   | 20.x.x |
 
 <a name="options"/>
 

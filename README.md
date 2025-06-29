@@ -12,6 +12,8 @@ ___
 
 A fully customizable and feature-rich Angular standalone component for advanced star ratings with precision and responsive design
 
+**✨ Now supports half-star ratings!**
+
 If you like this plugin, please give it a star ⭐.
 
 <a name="installation"/>
@@ -21,8 +23,8 @@ If you like this plugin, please give it a star ⭐.
 Install it with npm
 
 ```bash
-npm i rm-ng-star-rating
-yarn: yarn add rm-ng-star-rating
+  npm: npm i rm-ng-star-rating
+  yarn: yarn add rm-ng-star-rating
 ```
 
 ## Live DEMO
@@ -63,6 +65,25 @@ export class AppComponent {
 }
 
 ```
+<a name="half-star"/>
+
+## ⭐ New Feature: Half-Star Rating Support
+
+You can now enable half-star ratings for more precise feedback!  
+To allow users to select half stars, set the `[allowHalf]` input to `true`:
+
+```html
+<rm-ng-star-rating
+  [rating]="3.5"
+  [starCount]="5"
+  [allowHalf]="true"
+  (ratingUpdated)="onRatingUpdated($event)"
+></rm-ng-star-rating>
+```
+
+- Users can select half or full stars by clicking on the left or right side of a star.
+- Half-filled stars are visually displayed.
+
 <a name="versuion"/>
 
 ### Version Mapping
@@ -85,6 +106,7 @@ export class AppComponent {
 | **[readonly]**      | A flag that indicates if rating can be changed                       | false      |
 | **[emptyColor]**    | Display default star color                                           | lightgray  |
 | **[size]**          | Font size for start in `px`                                          | 24         |
+| **[allowHalf]**     | Allow users to select half-star ratings                              | false      |
 | **(ratingUpdated)** | A stream that emits when the rating value is changed                 |            |
 
 

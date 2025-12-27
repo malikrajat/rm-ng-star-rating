@@ -1,7 +1,7 @@
 {
   "name": "rm-ng-star-rating",
-  "version": "3.2.0",
-  "description": "A highly optimized and fully customizable pure angular component for value range selection.",
+  "version": "4.0.0",
+  "description": "rm-ng-star-rating is a lightweight, highly customizable Angular standalone star rating component designed for modern Angular applications. It enables developers to easily capture and display user ratings (with half and full star) using an intuitive star-based interface.",
   "keywords": [
     "library",
     "angularlibrary",
@@ -18,39 +18,193 @@
     "bar",
     "bar-rating",
     "star",
-    "stars"
+    "stars",
+    "star-rating",
+    "rating",
+    "rating-component",
+    "angular-rating",
+    "ng-star-rating",
+    "ng-rating",
+    "rating-widget",
+    "rating-ui",
+    "angular-ui-component",
+    "star-rating-component",
+    "angular",
+    "angular20",
+    "angular21",
+    "angular-component",
+    "angular-standalone",
+    "standalone-component",
+    "typescript",
+    "npm-package",
+    "customizable",
+    "responsive",
+    "lightweight",
+    "minimal",
+    "optimized",
+    "high-performance",
+    "accessible",
+    "a11y",
+    "keyboard-navigation",
+    "themeable",
+    "user-feedback",
+    "interactive",
+    "rating-input",
+    "clickable-stars",
+    "half-star",
+    "precision-rating",
+    "dynamic-rating",
+    "visual-feedback",
+    "reactive-forms",
+    "form-control",
+    "ngModel",
+    "angular-forms",
+    "ui-kit",
+    "component-library",
+    "customer-reviews",
+    "product-rating",
+    "user-review-stars",
+    "5-star-rating",
+    "rating-system",
+    "feedback-widget",
+    "review-component",
+    "web-component",
+    "star-rating",
+    "rating",
+    "rating-component",
+    "angular-rating",
+    "ng-star-rating",
+    "ng-rating",
+    "rating-widget",
+    "angular-ui-component",
+    "star-rating-component",
+    "angular",
+    "angular20",
+    "angular21",
+    "angular-component",
+    "standalone-component",
+    "typescript",
+    "npm-package",
+    "customizable",
+    "responsive",
+    "lightweight",
+    "minimal",
+    "optimized",
+    "accessible",
+    "a11y",
+    "interactive",
+    "user-feedback",
+    "rating-input",
+    "clickable-stars",
+    "half-star",
+    "precision-rating",
+    "dynamic-rating",
+    "reactive-forms",
+    "form-control",
+    "ngModel",
+    "ui-kit",
+    "customer-reviews",
+    "product-rating",
+    "user-review-stars",
+    "5-star-rating",
+    "feedback-widget",
+    "review-component",
+    "star-rating",
+    "angular-rating",
+    "angular-star-rating",
+    "rating-component",
+    "ng-rating",
+    "ui-component",
+    "npm-package",
+    "responsive",
+    "customizable",
+    "typescript",
+    "angular20",
+    "angular21",
+    "interactive-rating",
+    "accessibility"
   ],
   "author": {
     "name": "Rajat Malik",
     "email": "mr.rajatmalik@gmail.com",
-    "url": "https://www.linkedin.com/in/errajatmalik/"
+    "url": "https://www.rajatmalik.dev/"
   },
+  "contributors": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
   "homepage": "https://github.com/malikrajat/rm-ng-star-rating#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/malikrajat/rm-ng-star-rating.git"
   },
   "bugs": {
-    "url": "https://github.com/malikrajat/rm-ng-star-rating/issues"
+    "url": "https://github.com/malikrajat/rm-ng-star-rating/issues",
+    "email": "mr.rajatmalik@gmail.com"
   },
   "peerDependencies": {
-    "@angular/common": "^20.0.0",
-    "@angular/core": "^20.0.0"
+    "@angular/common": ">=16.0.0 <24.0.0",
+    "@angular/core": ">=16.0.0 <24.0.0"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.6.0"
   },
-  "sideEffects": false,
-  "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/malikrajat"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "ng-add": {
+    "save": "dependencies"
+  },
+  "ng-update": {
+    "packageGroup": [
+      "rm-ng-star-rating"
+    ]
+  },
+  "directories": {
+    "lib": "./src",
+    "doc": "./docs"
+  },
+  "packageManager": "pnpm@10.11.1",
   "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "private": false,
+  "preferGlobal": false,
+  "readme": "README.md",
   "module": "fesm2022/rm-ng-star-rating.mjs",
-  "typings": "index.d.ts",
+  "typings": "types/rm-ng-star-rating.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./index.d.ts",
+      "types": "./types/rm-ng-star-rating.d.ts",
       "default": "./fesm2022/rm-ng-star-rating.mjs"
     }
   }

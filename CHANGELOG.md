@@ -7,7 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [4.0.0] - 2025-12-25 (Upcoming)
+## [4.0.1] - 2025-12-29
+
+### Breaking Changes
+- No breaking changes
+
+### Added
+- No additional features added
+
+### Changed
+- changelog updated
+- updated readme
+- build optimizations
+
+### Fixed
+- performance issues with Angular 21 standalone components
+- type safety improvements with stricter TypeScript checks
+
+---
+
+## [4.0.0] - 2025-12-25
 
 ### Breaking Changes
 - Dropped support for Angular versions below 21

@@ -25,12 +25,15 @@
 <img src="https://img.shields.io/npm/last-update/rm-ng-star-rating" alt="Last update">
 <img src="https://img.shields.io/badge/Maintained-yes-success" alt="Maintained">
 <img src="https://img.shields.io/badge/SemVer-compliant-blue" alt="SemVer">
+<img src="https://img.shields.io/github/issues/malikrajat/rm-ng-star-rating" alt="Open issues">
+<img src="https://img.shields.io/github/stars/malikrajat/rm-ng-star-rating" alt="GitHub stars">
 </p>
 
 ## See It In Action
 
 <div align="center">
 
+  <img src="https://github.com/malikrajat/rm-ng-star-rating/blob/main/assets/star.gif" alt="rm-ng-star-rating Demo" width="800"/>
   <img src="https://github.com/malikrajat/rm-ng-star-rating/blob/main/assets/star.gif" alt="rm-ng-star-rating Demo" width="800"/>
 
   <p><em>Interactive star rating with customizable colors and sizes (Full/Half) Star!</em></p>
@@ -63,7 +66,7 @@
 - [Contributing Guidelines](./docs/CONTRIBUTING.md)
 - [Roadmap](./docs/ROADMAP.md)
 - [Changelog](./CHANGELOG.md)
-- [License](./LICENSE.md)
+- [License](./LICENSE)
 - [Examples](./examples/README.md)
 - [Usage Examples](./docs/USAGE.md)
 
@@ -242,7 +245,7 @@ Need assistance? We're here to help!
 
 - [GitHub Repository](https://github.com/malikrajat/rm-ng-star-rating)
 - [npm Package](https://www.npmjs.com/package/rm-ng-star-rating)
-- [Live Demo](https://stackblitz.com/edit/stackblitz-starters-gryqaz)
+- [Live Demo](https://stackblitz.com/edit/stackblitz-starters-vzwa4w)
 - [Changelog](https://github.com/malikrajat/rm-ng-star-rating/blob/main/CHANGELOG.md)
 
 ### Community
@@ -307,7 +310,7 @@ Need assistance? We're here to help!
 ### All Packages
 
 Browse all my packages:
-- [npm: rajatmalik](https://www.npmjs.com/settings/rajatmalik/packages)
+- [npm: rajatmalik](https://www.npmjs.com/~rajatmalik)
 - [GitHub: @malikrajat](https://github.com/malikrajat?tab=repositories)
 
 ## Author

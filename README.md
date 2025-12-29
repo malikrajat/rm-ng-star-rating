@@ -34,7 +34,6 @@
 <div align="center">
 
   <img src="https://github.com/malikrajat/rm-ng-star-rating/blob/main/assets/star.gif" alt="rm-ng-star-rating Demo" width="800"/>
-  <img src="https://github.com/malikrajat/rm-ng-star-rating/blob/main/assets/star.gif" alt="rm-ng-star-rating Demo" width="800"/>
 
   <p><em>Interactive star rating with customizable colors and sizes (Full/Half) Star!</em></p>
 
@@ -334,7 +333,7 @@ Full-stack developer | Open Source Contributor | Passionate about creating devel
   <a href="https://github.com/malikrajat/rm-ng-star-rating/stargazers">Star on GitHub</a> •
   <a href="https://www.npmjs.com/package/rm-ng-star-rating">View on npm</a> •
   <a href="https://github.com/malikrajat/rm-ng-star-rating/issues">Report Issue</a> •
-  <a href="https://stackblitz.com/edit/stackblitz-starters-gryqaz">Try Demo</a>
+  <a href="https://stackblitz.com/edit/stackblitz-starters-vzwa4w">Try Demo</a>
 </p>
 
 <p align="center">

@@ -44,3 +44,5 @@ Thumbs.db
 /examples/demo-app/.angular/
 /examples/demo-app/node_modules/
 /examples/demo-app/build.log
+/rm-ng-star-rating-*.tgz
+

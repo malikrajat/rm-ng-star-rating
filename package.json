@@ -1,6 +1,6 @@
 {
   "name": "rm-ng-star-rating",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "rm-ng-star-rating is a lightweight, highly customizable Angular standalone star rating component designed for modern Angular applications. It enables developers to easily capture and display user ratings (with half and full star) using an intuitive star-based interface.",
   "keywords": [
     "library",

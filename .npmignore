@@ -1,8 +1,10 @@
-assets/
 images/
 styles/
 *.png
 *.jpg
 *.svg
+assets/
 docs/
 examples/
+CHANGELOG.md
+LICENSE

@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/npm/v/rm-ng-star-rating.svg" alt="npm version">
 <img src="https://img.shields.io/badge/Stability-production--ready-success" alt="Production ready">
 <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license">
-<img src="https://img.shields.io/badge/Angular-14%20to%2021-blue" alt="Angular support range">
+<img src="https://img.shields.io/badge/Angular-14%20to%22-blue" alt="Angular support range">
 <img src="https://img.shields.io/badge/Ivy-compatible-success" alt="Ivy compatible">
 <img src="https://img.shields.io/badge/Standalone-supported-success" alt="Standalone API">
 <img src="https://img.shields.io/badge/AOT-compatible-success" alt="AOT compatible">
@@ -49,7 +49,7 @@
 ## Table of Contents
 
 - [Why This Library](./docs/WHY_THIS_LIBRARY.md)
-- [Installation](./docs/INSTALLATION.md)
+- [Installation](./docs/installation.md)
 - [Quick Start / Usage](./docs/USAGE.md)
 - [API Reference](./docs/API.md)
 - [Advanced Configuration](./docs/ADVANCED_CONFIGURATION.md)
@@ -60,7 +60,7 @@
 - [Versioning & Angular Compatibility](./docs/VERSION_COMPATIBILITY.md)
 - [Breaking Changes](./docs/BREAKING_CHANGES.md)
 - [FAQ](./docs/FAQ.md)
-- [Troubleshooting](./docs/TROUBLESHOOTING.md)
+- [Troubleshooting](./docs/troubleshooting.md)
 - [Project Structure](./docs/PROJECT_STRUCTURE.md)
 - [Contributing Guidelines](./docs/CONTRIBUTING.md)
 - [Roadmap](./docs/ROADMAP.md)
@@ -176,36 +176,68 @@ Explore our comprehensive examples to see the library in action:
 
 </div>
 
+---
 
 ## Installation & Setup
 
-For detailed installation instructions, see our [Installation Guide](./docs/INSTALLATION.md).
+For detailed installation instructions, see our [Installation Guide](./docs/installation.md).
+
+---
 
 ## Usage
 
 For comprehensive usage examples and API documentation, see our [Usage Guide](./docs/USAGE.md).
 
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+---
 
-## Support This Project
+## Changelog
 
-If **rm-ng-star-rating** has helped you build better Angular applications, please consider:
+See [CHANGELOG.md](CHANGELOG.md)  for release history and updates.
 
-### Star This Repository
+---
 
-A star helps other developers discover this library!
+## Browser Compatibility
 
-[![GitHub stars](https://img.shields.io/github/stars/malikrajat/rm-ng-star-rating?style=social)](https://github.com/malikrajat/rm-ng-star-rating/stargazers)
+### Supported Browsers
 
-### Why Your Star Matters
+| Browser | Version | Support Level | Notes |
+|---------|---------|---------------|-------|
+| Chrome | 80+ | Full Support | Recommended browser |
+| Firefox | 75+ | Full Support | Works perfectly |
+| Safari | 13+ | Full Support | iOS and macOS |
+| Edge | 80+ | Full Support | Chromium-based |
+| Opera | 67+ | Full Support | Works well |
+| Samsung Internet | 12+ | Full Support | Mobile support |
 
-- Increases visibility in the Angular community
-- Supports ongoing development and maintenance
-- Encourages more open-source contributions
-- Helps other developers find quality tools
+### Mobile Support
+
+- iOS Safari 13+
+- Chrome for Android 80+
+- Samsung Internet
+- All mobile browsers with modern JavaScript support
+
+### Download Behavior by Platform
+
+| Platform | Behavior |
+|----------|----------|
+| Desktop Chrome/Firefox/Edge | Direct download to Downloads folder |
+| Desktop Safari | May prompt for download location |
+| iOS Safari | Opens download manager |
+| Android Chrome | Downloads to Downloads folder |
+| Mobile Safari | Shows share sheet with save option |
+
+### Not Supported
+
+- Internet Explorer (all old versions)
+- Very old mobile browsers (pre-2019)
+
+---
 
 ## Statistics
 
@@ -215,17 +247,36 @@ A star helps other developers discover this library!
 [![GitHub stars](https://img.shields.io/github/stars/malikrajat/rm-ng-star-rating.svg?style=social)](https://github.com/malikrajat/rm-ng-star-rating/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/malikrajat/rm-ng-star-rating/blob/main/LICENSE)
 
-## Acknowledgements
+---
 
-This library wouldn't be possible without:
+## Support This Project
 
-- **[Angular Team](https://angular.io/)** - Amazing framework and ecosystem
-- **Community Contributors** - Thank you for feedback and improvements
-- **Open Source Community** - For inspiration and best practices
+If **rm-ng-star-rating** has helped you build better Angular applications, please consider:
 
-Special thanks to everyone who has starred, used, or contributed to this project!
+If this library has saved you development time and helped create amazing image sliders in your projects, **please consider giving it a  star!** 
 
+ **Why star this repo?**
+- Help other developers discover this lightweight, optimized solution
+- Support continued development and improvements
+- Show appreciation for free, quality tools
+- Boost visibility in the Angular community
 
+###  **Want More Quality Libraries?**
+
+This is just one of several useful libraries I've created. **[Explore my other Angular & web development libraries](https://github.com/malikrajat?tab=repositories)** that might solve your next challenge:
+
+-  **Utility libraries** for common development tasks
+-  **UI components** for better user experiences  
+-  **Performance tools** for optimization
+-  **Mobile-friendly solutions** for responsive apps
+
+**Found them helpful?** A star on each repo you find useful helps tremendously! It takes just one click but means the world to open-source maintainers.
+
+[![GitHub](https://img.shields.io/badge/View_All_Repositories-181717?logo=github)](https://github.com/malikrajat?tab=repositories)
+[![GitHub followers](https://img.shields.io/github/followers/malikrajat?style=social)](https://github.com/malikrajat)
+[![GitHub stars](https://img.shields.io/github/stars/malikrajat/rm-ng-star-rating?style=social)](https://github.com/malikrajat/rm-ng-star-rating/stargazers)
+
+---
 
 ## Support and Community
 
@@ -245,7 +296,7 @@ Need assistance? We're here to help!
 - [GitHub Repository](https://github.com/malikrajat/rm-ng-star-rating)
 - [npm Package](https://www.npmjs.com/package/rm-ng-star-rating)
 - [Live Demo](https://stackblitz.com/edit/stackblitz-starters-vzwa4w)
-- [Changelog](https://github.com/malikrajat/rm-ng-star-rating/blob/main/CHANGELOG.md)
+- [Changelog](https://github.com/malikrajat/rm-ng-star-rating/blob/master/CHANGELOG.md)
 
 ### Community
 
@@ -260,19 +311,46 @@ Need assistance? We're here to help!
 - Star the repository for updates
 - Watch for new releases
 
+---
+
+
+## Statistics
+
+[![npm downloads](https://img.shields.io/npm/dt/rm-ng-star-rating.svg)](https://www.npmjs.com/package/rm-ng-star-rating)
+[![npm version](https://img.shields.io/npm/v/rm-ng-star-rating.svg)](https://www.npmjs.com/package/rm-ng-star-rating)
+[![GitHub issues](https://img.shields.io/github/issues/malikrajat/rm-ng-star-rating.svg)](https://github.com/malikrajat/rm-ng-star-rating/issues)
+[![GitHub stars](https://img.shields.io/github/stars/malikrajat/rm-ng-star-rating.svg?style=social)](https://github.com/malikrajat/rm-ng-star-rating/stargazers)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/malikrajat/rm-ng-star-rating/blob/main/LICENSE)
+
+---
+
+## Acknowledgements
+This library was inspired by the need for a lightweight, modern  solution for Angular applications. Special thanks to the Angular community for their feedback and contributions.
+
+- **[Angular Team](https://angular.io/)** - Amazing framework and ecosystem
+- **Community Contributors** - Thank you for feedback and improvements
+- **Open Source Community** - For inspiration and best practices
+
+Special thanks to everyone who has starred, used, or contributed to this project!
+
+
+---
 
 ## Other Libraries
 
 ### UI Components
 
-| Library                | Description                                                              | npm Link                                                                                                        |
-| ---------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| **rm-range-slider**    | Lightweight two-thumb range slider with tooltips and color customization | [![npm](https://img.shields.io/npm/v/rm-range-slider.svg)](https://www.npmjs.com/package/rm-range-slider)       |
-| **rm-ng-range-slider** | Angular-specific version of the dual range slider                        | [![npm](https://img.shields.io/npm/v/rm-ng-range-slider.svg)](https://www.npmjs.com/package/rm-ng-range-slider) |
-| **rm-carousel**        | Simple, responsive carousel component                                    | [![npm](https://img.shields.io/npm/v/rm-carousel.svg)](https://www.npmjs.com/package/rm-carousel)               |
-| **rm-image-slider**    | Minimal image slider with smooth transitions                             | [![npm](https://img.shields.io/npm/v/rm-image-slider.svg)](https://www.npmjs.com/package/rm-image-slider)       |
-| **rm-ng-star-rating**  | Configurable Angular star rating component with readonly mode            | [![npm](https://img.shields.io/npm/v/rm-ng-star-rating.svg)](https://www.npmjs.com/package/rm-ng-star-rating)   |
+| Library                           | Description                                                              | npm Link                                                                                                        |
+|-----------------------------------| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| **rm-range-slider**               | Lightweight two-thumb range slider with tooltips and color customization | [![npm](https://img.shields.io/npm/v/rm-range-slider.svg)](https://www.npmjs.com/package/rm-range-slider)       |
+| **rm-ng-range-slider**            | Angular-specific version of the dual range slider                        | [![npm](https://img.shields.io/npm/v/rm-ng-range-slider.svg)](https://www.npmjs.com/package/rm-ng-range-slider) |
+| **rm-carousel**                   | Simple, responsive carousel component                                    | [![npm](https://img.shields.io/npm/v/rm-carousel.svg)](https://www.npmjs.com/package/rm-carousel)               |
+| **rm-image-slider**               | Minimal image slider with smooth transitions                             | [![npm](https://img.shields.io/npm/v/rm-image-slider.svg)](https://www.npmjs.com/package/rm-image-slider)       |
+| **rm-ng-star-rating**             | Configurable Angular star rating component with readonly mode            | [![npm](https://img.shields.io/npm/v/rm-ng-star-rating.svg)](https://www.npmjs.com/package/rm-ng-star-rating)   |
+| **@codewithrajat/rm-ng-typeahead** | Angular autocomplete/typeahead component with search suggestions and keyboard navigation | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-typeahead) |
+| **@codewithrajat/rm-ng-editor**                  | Rich text editor component for Angular applications with customizable toolbar support | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-editor) |
 
+---
 
 ### PDF & Export Libraries
 
@@ -281,23 +359,71 @@ Need assistance? We're here to help!
 | **rm-ng-export-to-csv**                | Export JSON data to CSV with zero dependencies               | [![npm](https://img.shields.io/npm/v/rm-ng-export-to-csv.svg)](https://www.npmjs.com/package/rm-ng-export-to-csv)                               |
 | **@codewithrajat/rm-ng-pdf-export**    | Image-based PDF export tool for Angular applications         | [![npm](https://img.shields.io/npm/v/@codewithrajat/rm-ng-pdf-export.svg)](https://www.npmjs.com/package/@codewithrajat/rm-ng-pdf-export)       |
 | **@codewithrajat/rm-ng-structure-pdf** | Generate structured PDFs for reports, invoices, or documents | [![npm](https://img.shields.io/npm/v/@codewithrajat/rm-ng-structure-pdf.svg)](https://www.npmjs.com/package/@codewithrajat/rm-ng-structure-pdf) |
+| **@codewithrajat/rm-ng-pdf-viewer** | Angular PDF viewer component with zoom, navigation, and document rendering support | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-pdf-viewer) |
 
+---
 
-### Utility Libraries
+### Chrome Extension
+
+| Library | Description | Link                                                                                                                                    |
+|----------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| **quickocr** | Chrome extension that extracts text from images using OCR technology | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/quickocr/releases)                                     |
+| **readLoude** | Chrome extension that read you web page loude e.g article etc. | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/readLoude/releases)                            |
+| **ai-assistant-reply** | AI Chrome extension to auto generate reply on linked in posts. | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/ai-assistant-reply/releases) |
+
+---
+
+### VS Code Extension
+
+| Library | Description | Link                                                                                                                                      |
+|----------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| **dead-css-cleaner** | VS Code extension for identifying and cleaning unused CSS styles | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/dead-css-cleaner/releases)      |
+| **file-coverage-insight** | VS Code extension for auto generated component file coverage automatelly on open. | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/file-coverage-insight/releases) |
+
+---
+
+### Desktop Applications - All Plateform
+
+| Library | Description | Link                                                                                                                           |
+|----------|-------------|--------------------------------------------------------------------------------------------------------------------------------|
+| **deepwork** | Cross-platform productivity application for focus sessions and deep work tracking | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/deepwork/releases)          |
+| **JsSandbox** | Cross-platform JavaScript playground and code execution environment | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/JsSandbox/releases) |
+
+---
+
+### Device Detection
 
 | Library                        | Description                                             | npm Link                                                                                                                        |
 | ------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | **rm-ng-device-detection**     | Detect device type, OS, and browser in Angular          | [![npm](https://img.shields.io/npm/v/rm-ng-device-detection.svg)](https://www.npmjs.com/package/rm-ng-device-detection)         |
-| **rm-colorful-console-logger** | Stylish multi-color console logger for better debugging | [![npm](https://img.shields.io/npm/v/rm-colorful-console-logger.svg)](https://www.npmjs.com/package/rm-colorful-console-logger) |
 
+---
 
 ### Notifications
 
 | Library           | Description                                       | npm Link                                                                                              |
 | ----------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | **rm-pushnotify** | Lightweight push-style toast notification utility | [![npm](https://img.shields.io/npm/v/rm-pushnotify.svg)](https://www.npmjs.com/package/rm-pushnotify) |
+| **@codewithrajat/rm-toast-notification** | Cross-platform toast and desktop notification library for web, Angular, and desktop applications | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-toast-notification) |
 
 
+---
+
+### Layout & Dynamic Rendering
+
+| Library | Description | Link |
+|----------|-------------|------|
+| **rm-ng-dynamic-layout** | Dynamic layout rendering engine for Angular applications using JSON-driven UI configuration | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-dynamic-layout) |
+
+---
+
+### Developer Tools & Extensions
+
+| Library | Description | Link                                                                                                                            |
+|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------|
+| **rm-colorful-console-logger** | Structured and colorized console logging utility for developers | [![npm](https://img.shields.io/npm/v/rm-colorful-console-logger.svg)](https://www.npmjs.com/package/rm-colorful-console-logger) |
+
+---
 
 ### Meta & Personal Branding
 
@@ -306,34 +432,56 @@ Need assistance? We're here to help!
 | **about-rajat** | Developer portfolio package for branding and quick personal info | [![npm](https://img.shields.io/npm/v/about-rajat.svg)](https://www.npmjs.com/package/about-rajat) |
 
 
+---
+
 ### All Packages
 
 Browse all my packages:
+- [npm: @codewithrajat](https://www.npmjs.com/~codewithrajat)
 - [npm: rajatmalik](https://www.npmjs.com/~rajatmalik)
 - [GitHub: @malikrajat](https://github.com/malikrajat?tab=repositories)
+
+---
 
 ## Author
 
 **Rajat Malik**
 
-Full-stack developer | Open Source Contributor | Passionate about creating developer-friendly tools and libraries.
+Full‑Stack Developer and Frontend Architect at Siemens with 14+ years building scalable enterprise platforms, specializing in micro‑frontends, AI‑native development, React, and Angular.  
+Author of 10+ open‑source libraries and 100+ technical articles, driving innovation through developer‑friendly tools, performance optimization, and AI‑assisted workflows.
 
-- Website: [rajatmalik.dev](https://rajatmalik.dev)
-- Email: [mr.rajatmalik@gmail.com](mailto:mr.rajatmalik@gmail.com)
-- LinkedIn: [Connect with me](mailto:mr.rajatmalik@gmail.com?subject=Hello%20Rajat&body=I%20want%20to%20connect%20with%20you.)
-- GitHub: [@malikrajat](https://github.com/malikrajat)
-- npm: [rajatmalik](https://www.npmjs.com/~rajatmalik)
+### GET IN TOUCH
+
+- Portfolio:  [rajatmalik.dev](https://rajatmalik.dev)
+- Email:      [mr.rajatmalik@gmail.com](mailto:mr.rajatmalik@gmail.com)
+- LinkedIn:   [errajatmalik](https://linkedin.com/in/errajatmalik)
+- GitHub:     [@malikrajat](https://github.com/malikrajat)
+- npm:        [rajatmalik](https://www.npmjs.com/~rajatmalik)
+
+### SOCIAL PRESENCE
+- Threads:    [rajatmalik](https://www.threads.net/@er.rajatmalik)
+- Twitter/X:  [rajatmalik](https://x.com/er_rajatmalik)
+- BlueSky:    [rajatmalik](http://devrajat.bsky.social)
+
+### CONTENT & WRITING
+
+- Medium:    [rajatmalik]( https://medium.com/@codewithrajat)
+- Dev.to:    [rajatmalik]( https://dev.to/codewithrajat)
+- Substack:   [rajatmalik](https://codewithrajat.substack.com)
+- Hashnode:   [rajatmalik](https://hashnode.com/@codeswithrajat)
+
 
 ---
+
+
 <p align="center">
-  <b>Built with care for the Angular community</b>
+  <p align="center">Made with care and love  by <a href="https://rajatmalik.dev">Rajat Malik</a> for the Angular community</p>
 </p>
 
 <p align="center">
   <a href="https://github.com/malikrajat/rm-ng-star-rating/stargazers">Star on GitHub</a> •
   <a href="https://www.npmjs.com/package/rm-ng-star-rating">View on npm</a> •
   <a href="https://github.com/malikrajat/rm-ng-star-rating/issues">Report Issue</a> •
-  <a href="https://stackblitz.com/edit/stackblitz-starters-vzwa4w">Try Demo</a>
 </p>
 
 <p align="center">

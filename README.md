@@ -82,19 +82,30 @@ npm install rm-ng-star-rating
 
 
 ```ts
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { RmNgStarRatingComponent } from 'rm-ng-star-rating';
 
 @Component({
   selector: 'app-example',
-  standalone: true,
   imports: [RmNgStarRatingComponent],
-  template: `
-    <rm-ng-star-rating [rating]="3.5"></rm-ng-star-rating>
+  template: `   
+  <rm-ng-star-rating
+    [rating]="rating()"
+    [starCount]="5"
+    [color]="'red'"
+    [size]="'40px'"
+    [emptyColor]="'lightgray'"
+    [readOnly]="false"
+    (ratingUpdated)="onRatingUpdated($event)"
+  ></rm-ng-star-rating>
   `
 })
 export class ExampleComponent {
-  rating = 3.5;
+   protected readonly rating = signal(3.5);
+  onRatingUpdated(newRating: number) {
+    console.log('New Rating:', newRating);
+    this.rating.set(newRating);
+  }
 }
 
 ```

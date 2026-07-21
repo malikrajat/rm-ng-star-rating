@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [5.0.0] - 2026-07-22
+
+### Breaking Changes
+- Dropped support for Angular versions below 22
+- Minimum Angular version now 22.x
+- Updated peer dependencies
+
+### Added
+- Full Angular 22 compatibility and support
+- Enhanced TypeScript 5.x support
+- Improved build optimization for Angular 22
+- Better tree-shaking capabilities
+
+### Changed
+- Updated compilation target for Angular 22
+- Refined component architecture for Angular 22 features
+- Performance improvements with Angular 22 optimizations
+
+### Fixed
+- Compatibility issues with Angular 22 standalone components
+- Type safety improvements with stricter TypeScript checks
+
+---
+
 ## [4.0.1] - 2025-12-29
 
 ### Breaking Changes
@@ -200,14 +224,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | rm-ng-star-rating | Angular Version | TypeScript | Status |
 |-------------------|----------------|------------|--------|
-| 4.x.x | 21.x.x | 5.4+ | Future |
-| 3.x.x | 20.x.x | 5.2+ | Current |
-| 2.x.x | 19.x.x | 5.2+ | Supported |
+| 5.x.x | 22.x.x | 5.4+ | Current |
+| 4.x.x | 21.x.x | 5.4+ | Supported |
+| 3.x.x | 20.x.x | 5.2+ | Supported |
+| 2.x.x | 19.x.x | 5.2+ | Legacy |
 | 1.x.x | 18.x.x | 5.0+ | Legacy |
 
 ---
 
 ## Migration Guides
+
+### Migrating from v4.x to v5.x
+
+**Prerequisites:**
+- Upgrade your Angular application to version 22.x
+- Update TypeScript to 5.4 or higher
+
+**Steps:**
+1. Update the package:
+    ```bash
+    npm install rm-ng-star-rating@5
+    ```
+
+2. No API changes required - v5 maintains backward compatibility with v4 API
+
+3. Test your implementation thoroughly
 
 ### Migrating from v3.x to v4.x
 
@@ -217,9 +258,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Steps:**
 1. Update the package:
-   ```bash
-   npm install rm-ng-star-rating@4
-   ```
+    ```bash
+    npm install rm-ng-star-rating@4
+    ```
 
 2. No API changes required - v4 maintains backward compatibility with v3 API
 
@@ -232,9 +273,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Steps:**
 1. Update the package:
-   ```bash
-   npm install rm-ng-star-rating@3
-   ```
+    ```bash
+    npm install rm-ng-star-rating@3
+    ```
 
 2. Review any deprecated API warnings
 3. Update component usage if needed
@@ -251,9 +292,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Steps:**
 1. Update the package:
-   ```bash
-   npm install rm-ng-star-rating@2
-   ```
+    ```bash
+    npm install rm-ng-star-rating@2
+    ```
 
 2. Update component imports (if using module-based approach)
 3. Review and update property bindings
@@ -262,6 +303,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 
 ## Deprecation Notices
+
+### v4.x
+- None currently
 
 ### v3.x
 - None currently
@@ -276,14 +320,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Roadmap
 
-### Planned for v4.x
+### Planned for v5.x
 - Custom icon support (hearts, thumbs, emojis)
 - Animation options for rating changes
 - Hover tooltip support
 - Rating distribution visualization
 - Batch rating updates API
 
-### Planned for v5.x
+### Planned for v6.x
 - Advanced theming system
 - Rating history tracking
 - Drag-to-rate gesture
@@ -294,9 +338,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Support Policy
 
-- **Current Version (3.x)**: Full support with regular updates
-- **Previous Version (2.x)**: Security fixes and critical bugs only
-- **Legacy (1.x)**: No active support - upgrade recommended
+- **Current Version (5.x)**: Full support with regular updates
+- **Previous Version (4.x)**: Security fixes and critical bugs only
+- **Legacy (3.x, 2.x, 1.x)**: No active support - upgrade recommended
 
 ---
 

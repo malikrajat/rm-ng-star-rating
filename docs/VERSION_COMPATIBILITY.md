@@ -10,6 +10,7 @@ This document describes the Angular, TypeScript, and platform compatibility for 
 
 | Library Version    | Supported Angular Versions | Standalone Components | Notes                   |
 | ------------------ | -------------------------- | --------------------- | ----------------------- |
+| `5.x.x`            | Angular **22**             | Yes                   | Full supported          |
 | `4.x.x`            | Angular **21**             | Yes                   | Full supported          |
 | `3.x.x`            | Angular **20**             | Yes                   | Full supported          |
 | `2.x.x`            | Angular **19**             | Yes                   | Full supported          |
@@ -39,6 +40,7 @@ The library is written in **strict TypeScript mode** and ships with full type de
 | Angular 19      | 5.2+               |
 | Angular 20      | 5.2+               |
 | Angular 21      | 5.2+               |
+| Angular 22      | 6.0+               |
 
 > Ensure your project’s TypeScript version aligns with your Angular version for best results.
 
